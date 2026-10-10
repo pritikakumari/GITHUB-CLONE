@@ -1,0 +1,102 @@
+.login-wrapper {
+  min-height: 100vh;
+  background: #0d1117;
+  color: #f0f6fc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 16px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.login-logo-container {
+  margin-bottom: 12px;
+}
+
+.logo-login {
+  width: 40px;
+  height: 40px;
+  display: block;
+}
+
+.login-box-wrapper {
+  width: 100%;
+  max-width: 340px;
+}
+
+.login-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-heading h1 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.login-box {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  padding: 20px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  box-sizing: border-box;
+}
+
+.login-box > div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.login-box .label {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.login-box .input {
+  width: 100%;
+  box-sizing: border-box;
+  background: #0d1117;
+  color: #f0f6fc;
+  border: 1px solid #3d444d;
+  border-radius: 6px;
+  padding: 8px 10px;
+  outline: none;
+}
+
+.login-box .input:focus {
+  border-color: #2f81f7;
+  box-shadow: 0 0 0 2px #2f81f733;
+}
+
+.login-btn {
+  width: 100%;
+  justify-content: center;
+}
+
+.pass-box {
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  padding: 14px;
+  margin-top: 16px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.pass-box p {
+  margin: 0;
+}
+
+.pass-box a {
+  color: #4493f8;
+  text-decoration: none;
+}
+
+.pass-box a:hover {
+  text-decoration: underline;
+}
